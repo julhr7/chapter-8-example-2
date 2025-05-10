@@ -19,6 +19,7 @@ const PORT = process.env.PORT;
 // HTTP GET route we can use to check if the service is handling requests.
 //
 app.get("/live", (req, res) => {
+    console.log('Prueba');
     res.sendStatus(200);
 });
 
